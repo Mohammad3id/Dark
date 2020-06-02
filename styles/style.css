@@ -11,6 +11,10 @@ a {
     color: inherit;
 }
 
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -92,7 +96,7 @@ a {
     transition: text-shadow 0.5s, box-shadow 0.5s, transform 0.05s;
     font-size: 15px;
     animation-delay: 2s;
-    background: rgba(0, 0, 0, 0);
+    background: transparent;
     outline: 0;
 }
 
@@ -158,7 +162,7 @@ a {
     }
 
     .navbar-button:active {
-        transform: scale(0.90);
+        transform: scale(0.95);
     }
 
     .navbar-item {
