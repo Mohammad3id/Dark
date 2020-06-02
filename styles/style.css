@@ -127,6 +127,14 @@ a {
         justify-content: space-between;
     }
 
+    .navbar-brand {
+        height: 50px;
+    }
+
+    .navbar-brand img{
+        height: 100%;
+    }
+
     .navbar-button {
         display: inline;
         background: transparent;
