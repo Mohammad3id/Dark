@@ -111,9 +111,9 @@ button {
 .cards-container {
     display: grid;
     margin: 15px 0px;
-    padding: 200px calc(15vw - 50px);
-    grid-template-columns: repeat(auto-fill, minmax(calc(200px + 5vw), 1fr));
-    grid-auto-rows: minmax(300px, auto);
+    padding: 200px calc(10px + 4vw);
+    grid-template-columns: repeat(auto-fill, minmax(calc(300px + 5vw), 1fr));
+    grid-auto-rows: minmax(200px, auto);
     background: linear-gradient(rgb(0, 12, 29), rgb(0, 69, 173) 300px, rgb(0, 69, 173) calc(100% - 300px), rgb(0, 12, 29) 100%);
     gap: 50px;
 }
