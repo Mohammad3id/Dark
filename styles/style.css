@@ -29,6 +29,9 @@ button {
 
 .navbar-items {
 	display: flex;
+}
+
+.transition-duration {
 	transition: all 0.5s;
 }
 
