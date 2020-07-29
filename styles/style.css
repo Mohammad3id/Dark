@@ -31,6 +31,7 @@ button {
 .navbar-button {
 	display: none;
 	cursor: pointer;
+	transition: all 0.5s;
 }
 
 .navbar-button div {
@@ -38,6 +39,7 @@ button {
 	margin: 6px;
 	height: 4px;
 	width: 30px;
+	transition: all 0.5s;
 }
 
 .navbar-item {
@@ -195,11 +197,6 @@ button {
 	.navbar-button {
 		display: block;
 		animation-delay: 2s;
-		transition: transform 0.05s;
-	}
-
-	.navbar-button:active {
-		transform: scale(0.95);
 	}
 
 	.navbar-items {
@@ -225,5 +222,24 @@ button {
 
 	.navbar-items.toggle {
 		transform: translateX(0%);
+	}
+
+	.navbar-button:active {
+		transform: scale(0.9);
+	}
+	.navbar-button.toggle {
+		transform: rotate(90deg);
+	}
+
+	.navbar-button.toggle .line1 {
+		transform: rotate(45deg) translate(7px, 7px);
+	}
+
+	.navbar-button.toggle .line2 {
+		opacity: 0;
+	}
+
+	.navbar-button.toggle .line3 {
+		transform: rotate(-45deg) translate(7px, -7px);
 	}
 }
