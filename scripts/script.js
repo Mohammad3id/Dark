@@ -5,11 +5,3 @@ nav_button.addEventListener("click", () => {
 	nav_items_box.classList.toggle("toggle");
 	nav_button.classList.toggle("toggle");
 });
-
-nav_button.addEventListener(
-	"click",
-	() => {
-		nav_items_box.classList.add("transition-duration");
-	},
-	{ once: true }
-);
